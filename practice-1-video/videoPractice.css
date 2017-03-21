@@ -1,0 +1,36 @@
+.videoContainer {
+	width: 730px;
+	margin: 0 auto;
+}
+#firstVideo {
+	display: block;
+	width: inherit;
+}
+.info  {
+	text-align: center;
+}
+.progressBar {
+    position: relative;
+    width: 100%;
+    height: 12px;
+}
+.timeBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #eebe7d;
+}
+.progressBar,
+.controls,
+.videoDuration,
+.currentTime {
+	margin-bottom: 6px;
+}
+.btnPlay {
+	display: inline;
+}
+.replay {
+	display: none;
+}

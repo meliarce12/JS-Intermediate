@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset=utf-8 name="viewport" />
+		<title>Video Practice 1</title>
+		<link rel="stylesheet" href="videoPractice.css">
+	</head>
+
+	<body>
+		<div class="videoContainer">
+			<a href="">
+				
+			</a>
+			<video id="firstVideo" class="" controls preload="auto" poster="download.png"
+				  data-setup='{ "autoplay": false, "example_option":true, "controls":false }'>
+				  <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm> 
+				  <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg> 
+				  <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+				  <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp>
+				  <img src="notBrowserSupport.png" alt="No Browser Support">
+				  <p class="">Your browser does not support the video tag.</p>
+			</video>
+			<div class="progressBar">
+			    <div class="timeBar"></div>
+			</div>
+			<div class="info"> 
+				<div class="controls">
+			    	<button class="btnPlay">Play/Pause</button>
+			    	<button class="replay">Replay</button>
+			    	<button class="muted" >Mute/Unmute</button>
+				</div>
+				<div class="videoDuration">
+				    Length of the video: <span class="duration"></span> seconds
+				</div>
+				<div class="currentTime">
+					Current time: <span class="current"></span> seconds
+				</div>
+			</div>
+		</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="videoPractice.js"></script>
+	</body>
+
+</html>
